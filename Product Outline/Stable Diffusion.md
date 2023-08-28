@@ -1,0 +1,1 @@
+As we develop the product, I'd like to investigate integrating the usage of SDXL with the model. With LangChain, the model can interact with external APIs. There may be some support for having it prompt SDXL for an image. This may be risky, and we may need to safeguard SDXL from generating explicit.

@@ -1,0 +1,12 @@
+### Plans
+Various open source projects have achieved some drastic improvements on the original LLaMA model as well as LLaMA2, although the latter was not immediate. Each project uniquely innovates in how training data is generated, curated, and/or processed. To recount some of the differences, fine-tuning was first attacked by the [Stanford Alpaca paper](https://crfm.stanford.edu/2023/03/13/alpaca.html), allowing models to quickly learn more surface-level skills at a low cost. Fine-tuning is now standard practice. [WizardLM](https://github.com/nlpxucan/WizardLM/tree/main) has made several contributions, and by most counts their models have achieved the best performance out of the pack. Their primary contribution is Evol-Instruct, the premise being to take basic instruction-oriented prompts and increase the complexity by extending the prompt and adding steps. [Orca](https://arxiv.org/pdf/2306.02707.pdf) was a paper from Microsoft Research showing that highly curated datasets, such as a training sets of only textbook material and content, resulted in massive boosts in performance on lower parameter models (especially in coding). Microsoft made claims that they would release their models quickly after the paper came out in late June, but they have yet to do this. The community has since replicated their methods to great success. There were a few projects that worked on this, one of which is the OpenOrca project.
+
+For training, I believe that merging the highest quality datasets from across these projects and curating them to achieve variety without diluting quality can result in an extremely effective fine-tune. Since we have access to several A100s for training, we will try to finetune the best base model possible, which at this time is the LLaMA2 70b model.
+
+In summary, the plan is rather primitive. We should merge the public training sets from the WizardLM, OpenOrca and other datasets into one set, then train to more epochs than the source projects. Running evals on these models is somewhat tricky, but if possible I'd like to get MMLU and HellaSwag benchmarks on the model in between epochs to get an idea of convergence.
+
+Examples are available in [[Orca Training]] and [[WizardLM Training]].
+### Datasets
+* [OpenOrca](https://huggingface.co/datasets/Open-Orca/OpenOrca)
+* [WizardLM Evol-Instruct V2 196k](https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k)
+* [Open-Platypus](https://huggingface.co/datasets/garage-bAInd/Open-Platypus)

@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "1c870154d1275de0",
+    "type": "split",
+    "children": [
+      {
+        "id": "31bd575f7b3af7f2",
+        "type": "tabs",
+        "dimension": 74.83221476510067,
+        "children": [
+          {
+            "id": "7f0a2ae4cb771b11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Examples/Environment Setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f058bb5c19493ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Training/Datasets.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "66bc24a76e61d122",
+        "type": "split",
+        "dimension": 25.16778523489933,
+        "children": [
+          {
+            "id": "86c2e4c874a2d118",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bd32fe1b1988f120",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "d9b48b4e7df8318e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "42e66026731e2515",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Product Outline/Document Collections.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "de3f3a2b469ae857",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6346632f1963d3c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a7df7f25d279ee6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9ba40dc3deffe0a5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5c0bcebdb12df254",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 262.5
+  },
+  "right": {
+    "id": "35eb594ca5a87db2",
+    "type": "split",
+    "children": [
+      {
+        "id": "cae56ef9f4884220",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d2fe7a6c26b4a18",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8fae9d25c1073e7d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2a0fb33e26cf44d0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "51de4668e549e32a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "bd32fe1b1988f120",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "Examples/LangChain Basic Document Query.md",
+    "Examples/Environment Setup.md",
+    "Examples/LangChain + ExLLaMA.md",
+    "Implementation/llama.cpp.md",
+    "Training/WizardLM Training.md",
+    "Features/Embeddings.md",
+    "Training/Datasets.md",
+    "Product Outline/Training.md",
+    "Product Outline/Stable Diffusion.md",
+    "Product Outline/Overview.md",
+    "Product Outline/Features.md",
+    "Product Outline/Document Collections.md",
+    "Training/Orca Training.md",
+    "Untitled.md",
+    "2023-08-20.md",
+    "Product Outline",
+    "Examples",
+    "Training",
+    "Implementation",
+    "Features"
+  ]
+}

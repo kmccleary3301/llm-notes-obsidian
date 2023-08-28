@@ -1,0 +1,10 @@
+I am hoping that this is the defining feature of our product. The model will ship with support for vector databases and [[Embeddings]], either stored locally (i.e. [ChromaDB](https://docs.trychroma.com/getting-started)) or using a service like [Pinecone](https://docs.pinecone.io/docs/overview). As for retrieval, LangChain seems to integrate well with [FAISS](https://github.com/facebookresearch/faiss), but I will explore other options. With this kind of tech stack, the model becomes capable of long-term memory and content retrieval. Features like real-time document and news retrieval, inline citations, and document analysis are not only possible but easy to implement.
+
+### Custom Repositories
+Users of our product can create custom collections of documents, and set them to private or public. This will require writing support and/or parsers for different document types (pdf, md, txt, docx, html, xml, etc. ), although LangChain has unreliable code for all of them. Users can add descriptions to their collections. Users can also search for public document collections to access. Functionally, these will be similar to Spotify playlists. Users can check the collections they want the model to use, and the backend will automatically load them in combination.
+
+### Instructor Opt-Ins 
+Instructors will be able to opt-in to uploading course documents for their course and section to the service. If they choose to do so, students can search for their course and section, and load the collection into the model. The model can answer questions and retrieve information for the student to use, with built-in page citations and references. Effectively the model will become a private tutor, referencing the instructor's own materials. 
+For the developers, these will just be more document collections. The only difference will be that they can be searched exclusively, and there will need to be a custom system for instructors to verify their identity/position to upload the collection.
+
+An example of a single document fetch with LangChain and FAISS is available in [[LangChain Basic Document Query]].
